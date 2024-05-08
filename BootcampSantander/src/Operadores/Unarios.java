@@ -41,19 +41,6 @@ public class Unarios {
 
 		System.out.println("Inverteu " + !verdadeiro);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
