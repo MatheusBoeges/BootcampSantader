@@ -1,4 +1,4 @@
-package POO.Lanchonete;
+package POO.Lanchonete.atendimento.cozinha;
 
 public class Almoxarife {
 	

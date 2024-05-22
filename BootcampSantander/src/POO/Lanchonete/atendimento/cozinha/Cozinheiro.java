@@ -1,4 +1,6 @@
-package POO.Lanchonete;
+package POO.Lanchonete.atendimento.cozinha;
+
+import POO.Lanchonete.atendimento.Atendente;
 
 public class Cozinheiro {
 	
