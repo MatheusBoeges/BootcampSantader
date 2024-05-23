@@ -42,9 +42,6 @@ public class Cozinheiro {
 		private void fritarIngredientesLanche() {
 			System.out.println("FRITANDO A CARNE E OVO PARA O HAMBÚRGUER");
 		}
-		private void pedirParaTrocarGas(Atendente meuAmigo) {
-			meuAmigo.trocarGas();
-		}
 		private void pedirParaTrocarGas(Almoxarife meuAmigo) {
 			meuAmigo.trocarGas();
 		}
