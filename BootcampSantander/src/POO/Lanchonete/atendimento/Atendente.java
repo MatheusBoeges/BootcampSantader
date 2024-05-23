@@ -12,7 +12,10 @@ public class Atendente {
 	public void receberPagamento() {
 		System.out.println("RECEBENDO PAGAMENTO");
 	}
-	public void trocarGas() {
+	
+	// Metodo default :
+	
+	void trocarGas() {
 		System.out.println("ATENDENTE TROCANDO O GÁS");
 	}
 	public void pegarPedidoBalcao() {
