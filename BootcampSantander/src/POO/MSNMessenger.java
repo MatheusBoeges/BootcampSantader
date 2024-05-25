@@ -11,6 +11,16 @@ package POO;
 
 public class MSNMessenger extends ServicoMensagemInstantanea {
 	
-	
-
+	// Metodo Encapsulado:
+		public void enviarMensagem() {
+			//primeiro confirmar se esta conectado a internet
+			validarConectadoInternet();
+			System.out.println("Enviando mensagem pelo MSN Messenger");
+			//depois de enviada, salva o histórico da mensagem
+			salvarHistoricoMensagem();
+		}
+		public void receberMensagem() {
+			System.out.println("Recebendo mensagem pelo MSN Messenger");
+		}
+		
 }
