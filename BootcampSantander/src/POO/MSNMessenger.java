@@ -8,16 +8,30 @@ package POO;
 
 public class MSNMessenger {
 	
+	/*
+	 * Encapsulamento: Nem tudo precisa estar visível, grande parte do nosso algoritmo pode ser distribuído em métodos,
+	 * com finalidades específicas que complementam uma ação em nossa aplicação.
+	 * 
+	 * Exemplo: Enviar uma mensagem, exige muitas etapas para o sistema, mas o usuário só visualiza enviar e a "magia" acontece.
+	 * 
+	 */
+	
+	
+	// Metodo Encapsulado:
 	public void enviarMensagem() {
+		validarConectadoInternet();
 		System.out.println("Enviando mensagem");
+		salvarHistoricoMensagem();
 	}
 	public void receberMensagem() {
 		System.out.println("Recebendo mensagem");
 	}
-	public void validarConectadoInternet() {
+	
+	// Métodos privadas, visíveis somente na classe
+	private void validarConectadoInternet() {
 		System.out.println("Validando se está conectado a internet");
 	}
-	public void salvarHistoricoMensagem() {
+	private void salvarHistoricoMensagem() {
 		System.out.println("Salvando o histórico da mensagem");
 	}
 
