@@ -1,38 +1,16 @@
 package POO;
 
 /*
- * Programação orientada a objetos (POO, ou OOP segundo as suas siglas em inglês), é um paradigma de programação baseado no conceito de "objetos",
- * que podem conter dados na forma de campos, também conhecidos como atributos e códigos, na forma de procedimentos, também conhecidos como métodos.
+ * Herança: Características e comportamentos comuns, podem ser elevados e compartilhados através de uma hierarquia de objetos.
+ * 
+ * Exemplo: Um MSN Messenger, um Facebook Messenger e um Telegram possuem propriedades como verificar se está conectado a internet, enviar mensagem e salvar histórico.
+ * Logo, para não ser um processo de codificação redundante, podemos desfrutar da herança criando uma classe ServicoMensagemInstantanea
+ * para que seja herdada por MSNMessenger, FacebookMessenger e Telegram.
  * 
  */
 
-public class MSNMessenger {
-	
-	/*
-	 * Encapsulamento: Nem tudo precisa estar visível, grande parte do nosso algoritmo pode ser distribuído em métodos,
-	 * com finalidades específicas que complementam uma ação em nossa aplicação.
-	 * 
-	 * Exemplo: Enviar uma mensagem, exige muitas etapas para o sistema, mas o usuário só visualiza enviar e a "magia" acontece.
-	 * 
-	 */
+public class MSNMessenger extends ServicoMensagemInstantanea {
 	
 	
-	// Metodo Encapsulado:
-	public void enviarMensagem() {
-		validarConectadoInternet();
-		System.out.println("Enviando mensagem");
-		salvarHistoricoMensagem();
-	}
-	public void receberMensagem() {
-		System.out.println("Recebendo mensagem");
-	}
-	
-	// Métodos privadas, visíveis somente na classe
-	private void validarConectadoInternet() {
-		System.out.println("Validando se está conectado a internet");
-	}
-	private void salvarHistoricoMensagem() {
-		System.out.println("Salvando o histórico da mensagem");
-	}
 
 }
