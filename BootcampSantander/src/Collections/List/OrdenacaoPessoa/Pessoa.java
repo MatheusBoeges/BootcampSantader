@@ -12,7 +12,6 @@ public class Pessoa {
 	    this.altura = altura;
 	  }
 
-	  @Override
 	  public int compareTo(Pessoa p) {
 	    return Integer.compare(idade, p.getIdade());
 	  }
