@@ -15,6 +15,14 @@ public class Livro {
 	public String getTitulo() {
 		return titulo;
 	}
+	
+	public String getAutor() {
+		return autor;
+	}
+	
+	public int getAnoPublicacao() {
+		return anoPublicacao;
+	}
 
 	@Override
 	public String toString() {
