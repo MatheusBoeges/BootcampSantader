@@ -6,9 +6,9 @@ import java.util.List;
 
 public class OrdencaoPessoas {
 
-	private List<Pessoa> pessoasList;
+	List<Pessoa> pessoasList;
 	
-	public OrdenacaoPessoas() {
+	public OrdencaoPessoas() {
 		this.pessoasList = new ArrayList<>();
 	}
 	
