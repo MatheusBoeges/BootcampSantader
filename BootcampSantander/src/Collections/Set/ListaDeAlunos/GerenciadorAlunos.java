@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 public class GerenciadorAlunos {
 	
-	 private Set<Aluno> alunosSet;
+	 Set<Aluno> alunosSet;
 
 	  public GerenciadorAlunos() {
 	    this.alunosSet = new HashSet<>();
