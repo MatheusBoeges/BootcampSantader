@@ -3,11 +3,11 @@ package Collections.Set.ConjuntoDeConvidados;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ConjuntoConvidado {
+public class ConjuntoConvidados {
 	
 	 private Set<Convidado> convidadosSet;
 
-	  public public ConjuntoConvidado() {
+	  public public ConjuntoConvidados() {
 	    this.convidadosSet = new HashSet<>();
 	  }
 
