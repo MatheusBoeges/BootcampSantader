@@ -10,7 +10,7 @@ import java.util.NoSuchElementException;
 
 public class LivrariaOnline {
 	
-	private Map<String, Livro> livros;
+	Map<String, Livro> livros;
 
 	  public LivrariaOnline() {
 	    this.livros = new HashMap<>();
