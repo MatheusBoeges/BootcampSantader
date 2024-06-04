@@ -17,7 +17,6 @@ public class Produto {
 	    this.quantidade = quantidade;
 	  }
 
-	  @Override
 	  public int compareTo(Produto p) {
 	    return nome.compareToIgnoreCase(p.getNome());
 	  }
