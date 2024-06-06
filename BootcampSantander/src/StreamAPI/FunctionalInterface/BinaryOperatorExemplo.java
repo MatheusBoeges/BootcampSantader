@@ -27,19 +27,6 @@ public class BinaryOperatorExemplo {
 	    // Imprimir o resultado da soma
 	    System.out.println("A soma dos números é: " + resultado);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
